@@ -43,7 +43,7 @@ To run the project locally:
 start index.html   # On Windows
 open index.html    # On macOS
 
-⚙️ How to Use
+##⚙️ How to Use
 Select Encode or Decode
 
 Enter your plaintext or ciphertext
@@ -66,7 +66,7 @@ Output appears in the bottom textarea
 
 When you switch between Encode/Decode, the positions and labels of the text areas dynamically swap.
 
-🧠 About Caesar Cipher
+##🧠 About Caesar Cipher
 The Caesar Cipher is a classic substitution cipher where each letter is shifted a certain number of places in the alphabet. This tool generalizes that idea for:
 
 Any alphabet (not just a-z)
@@ -75,5 +75,5 @@ Alphanumeric or custom symbols
 
 Modulo wraparound
 
-📄 License
+##📄 License
 This project is open-source and available under the MIT License.
