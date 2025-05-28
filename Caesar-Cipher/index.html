@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Caesar Cipher Tool</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <h1>Caesar Cipher</h1>
+        <p>Encrypt or Decrypt Text with a Custom Alphabet</p>
+    </header>
+
+    <main class="cipher-container">
+        <section class="control-panel">
+            <h2>Settings</h2>
+            <form id="controls">
+                <div class="input-group">
+                    <label>Mode:</label>
+                    <div class="radio-options">
+                        <label><input type="radio" name="code" value="encode" checked> Encode</label>
+                        <label><input type="radio" name="code" value="decode"> Decode</label>
+                    </div>
+                </div>
+
+                <div class="input-row">
+                    <div class="input-group">
+                        <label for="shift-input">Shift Key</label>
+                        <input type="text" id="shift-input" value="3">
+                    </div>
+                    <div class="input-group">
+                        <label for="mod-input">Modulo</label>
+                        <input type="text" id="mod-input" value="36">
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <label for="alphabet-input">Custom Alphabet</label>
+                    <input type="text" id="alphabet-input" value="abcdefghijklmnopqrstuvwxyz0123456789">
+                </div>
+
+                <div class="input-row">
+                    <div class="input-group">
+                        <label for="letter-case">Letter Case</label>
+                        <select id="letter-case">
+                            <option value="1">Maintain Case</option>
+                            <option value="2">Lower Case</option>
+                            <option value="3">Upper Case</option>
+                        </select>
+                    </div>
+                    <div class="input-group">
+                        <label for="foreign-chars">Foreign Chars</label>
+                        <select id="foreign-chars">
+                            <option value="1">Remove</option>
+                            <option value="2">Ignore</option>
+                        </select>
+                    </div>
+                </div>
+
+                <button id="submit" type="button">Process</button>
+            </form>
+        </section>
+
+        <section class="text-area">
+            <div id="input-container" class="input-output">
+                <label id="input-label" for="input-text">Plaintext</label>
+                <textarea id="input-text" placeholder="Enter your text here..."></textarea>
+                <p id="status"></p>
+            </div>
+
+            <div id="output-container" class="input-output">
+                <label id="output-label" for="output-text">Ciphertext</label>
+                <textarea id="output-text" readonly placeholder="Result will appear here..."></textarea>
+            </div>
+        </section>
+    </main>
+
+    <script src="caesar.js"></script>
+</body>
+</html>

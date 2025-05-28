@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f9f9f9;
+    color: #222;
+    padding: 40px 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    font-size: 3rem;
+    color: #00796b; /* teal/dark cyan */
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-top: 10px;
+}
+
+.cipher-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+section {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 8px 24px rgba(0, 121, 107, 0.15);
+}
+
+.control-panel h2 {
+    font-size: 1.5rem;
+    color: #00796b;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #444;
+}
+
+.input-group input,
+.input-group select,
+textarea {
+    padding: 12px;
+    font-size: 1rem;
+    background-color: #f0f0f0;
+    border: 2px solid #00796b;
+    border-radius: 8px;
+    color: #222;
+    transition: 0.3s;
+}
+
+.input-group input:focus,
+.input-group select:focus,
+textarea:focus {
+    outline: none;
+    border-color: #004d40;
+    box-shadow: 0 0 10px #004d40aa;
+}
+
+.input-row {
+    display: flex;
+    gap: 20px;
+}
+
+.radio-options {
+    display: flex;
+    gap: 15px;
+}
+
+.radio-options input[type="radio"] {
+    accent-color: #00796b;
+    margin-right: 6px;
+    transform: scale(1.2);
+}
+
+#submit {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(to right, #00796b, #004d40);
+    color: #fff;
+    font-weight: bold;
+    font-size: 1rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background 0.3s ease;
+}
+
+#submit:hover {
+    background: linear-gradient(to right, #004d40, #00251a);
+    color: white;
+}
+
+.text-area {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.input-output {
+    display: flex;
+    flex-direction: column;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 180px;
+}
+
+#status {
+    font-size: 0.85rem;
+    color: #388e3c;
+    margin-top: 6px;
+}
+
+@media screen and (max-width: 900px) {
+    .cipher-container {
+        grid-template-columns: 1fr;
+    }
+}
