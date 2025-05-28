@@ -3,7 +3,7 @@
 
 This is a web-based Caesar Cipher tool that allows users to **encrypt** or **decrypt** text using a customizable alphabet, shift key, and other flexible options.
 
-![Caesar Cipher UI Screenshot](https://www.google.com/url?sa=i&url=https%3A%2F%2Fkeithwilliams-91944.medium.com%2Fcaesar-cipher-solution-in-javascript-d8221984d61&psig=AOvVaw0UV79RYLSVCQ0cNoVJcSbC&ust=1748488803632000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMDYxPCaxY0DFQAAAAAdAAAAABAE) <!-- Optional: Add a screenshot in your repo -->
+ !-- Optional: Add a screenshot in your repo -->
 
 ---
 
