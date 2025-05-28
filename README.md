@@ -40,8 +40,7 @@ To run the project locally:
    ```bash
    git clone https://github.com/Venkateshvoonna/caesar-cipher-tool.git
    cd caesar-cipher-tool
-start index.html   # On Windows
-open index.html    # On macOS
+
 
 ## ⚙️ How to Use
 Select Encode or Decode
