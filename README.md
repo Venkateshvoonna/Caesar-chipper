@@ -21,10 +21,10 @@ This is a web-based Caesar Cipher tool that allows users to **encrypt** or **dec
 ## 📁 Project Structure
 
    
-      ├── index.html # Main HTML file (UI)
-      ├── style.css # Light-themed CSS styling
-      ├── caesar.js # JavaScript logic for encryption/decryption
-      ├── README.md # This file
+      ├── index.html 
+      ├── style.css 
+      ├── caesar.js 
+      ├── README.md 
  
 
 
